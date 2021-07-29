@@ -15,7 +15,6 @@ const components = [
   vForm,
 ]
 
-// will install the plugin only once
 const install = function(Vue) {
   components.forEach(component => {
     Vue.component(component.name, component)

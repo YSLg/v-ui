@@ -1,0 +1,20 @@
+15 error Error: Command failed: git remote update
+15 error fatal: unable to access 'https://github.com/YSLg/v-ui.git/': Failed to connect to github.com port 443: Operation timed out
+15 error error: Could not fetch origin
+15 error Auto packing the repository in background for optimum performance.
+15 error See "git help gc" for manual housekeeping.
+15 error warning: The last gc run reported the following. Please correct the root cause
+15 error and remove .git/gc.log.
+15 error Automatic cleanup will not be performed until the file is removed.
+15 error
+15 error warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+15 error
+15 error
+15 error Fetching origin
+15 error
+15 error     at makeError (/Users/baiwang/.config/yarn/global/node_modules/execa/index.js:174:9)
+15 error     at Function.module.exports.sync (/Users/baiwang/.config/yarn/global/node_modules/execa/index.js:338:15)
+15 error     at Object.execSync (/Users/baiwang/.config/yarn/global/node_modules/@lerna/child-process/index.js:26:16)
+15 error     at updateRemote (/Users/baiwang/.config/yarn/global/node_modules/@lerna/version/lib/is-behind-upstream.js:26:16)
+15 error     at isBehindUpstream (/Users/baiwang/.config/yarn/global/node_modules/@lerna/version/lib/is-behind-upstream.js:11:3)
+15 error     at VersionCommand.initialize (/Users/baiwang/.config/yarn/global/node_modules/@lerna/version/index.js:154:9)

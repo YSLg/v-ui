@@ -3,17 +3,5 @@
   "private": true,
   "devDependencies": {
     "lerna": "^3.22.1"
-  },
-  "command": {
-    "publish": {
-      "ignoreChanges": [
-        "demo",
-        "test",
-        "*.md"
-      ]
-    }
-  },
-  "version": "1.0.1",
-  "npmClient": "xnpm",
-  "registry": "http://registry.npm.private.com"
+  }
 }
