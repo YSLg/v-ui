@@ -1,4 +1,5 @@
 {
+  "name": "ve-ui",
   "packages": [
     "packages/*"
   ],
