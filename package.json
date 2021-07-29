@@ -1,5 +1,5 @@
 {
-  "name": "ve-ui",
+  "name": "vi-ui",
   "private": true,
   "devDependencies": {
     "lerna": "^3.22.1"
